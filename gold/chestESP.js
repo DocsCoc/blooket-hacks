@@ -6,9 +6,9 @@
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
             if (window.location.pathname != '/play/gold') {
-                alert('You must be in a gold quest game!');
+                alert('u have to be in a game monkey');
             } else {
-                alert('Chest ESP enabled');
+                alert('i count moneyy tonka tonka tonka yeat yeet yayaysadsafg');
 
                 interval = setInterval(() => {
                     if (window.location.pathname != '/play/gold') return clearInterval(interval);
@@ -35,8 +35,8 @@
                                 border-color: black;
                                 margin-top: 200px;`
                             try { choiceDiv.children[i].appendChild(textElement); } catch (e) {
-                                if (confirm('An error occured, would you like to report this in the support discord server?')) {
-                                    window.open('https://glizzers.xyz/discord');
+                                if (confirm('u fucked it up tarded black boy try again')) {
+                                    window.open('https://cornhub.com');
                                 };
                             };
                         });
@@ -53,12 +53,8 @@
 })();
 
 
-function footer() {
-    let element = document.createElement('div');
 
-    element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(240, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by gliz <br> My <a style="color: #0000ff;" href="https://twitter.com/glizuwu" target="_blank">twitter</a></p>`;
-    document.body.appendChild(element);
+  
 
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     element.onmousedown = ((e = window.event) => {
