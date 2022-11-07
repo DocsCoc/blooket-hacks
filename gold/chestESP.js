@@ -6,9 +6,9 @@
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
             if (window.location.pathname != '/play/gold') {
-                alert('u have to be in a game monkey');
+                alert('go into a game sped!');
             } else {
-                alert('i count moneyy tonka tonka tonka yeat yeet yayaysadsafg');
+                alert('watermelon aim bot on ');
 
                 interval = setInterval(() => {
                     if (window.location.pathname != '/play/gold') return clearInterval(interval);
@@ -35,7 +35,7 @@
                                 border-color: black;
                                 margin-top: 200px;`
                             try { choiceDiv.children[i].appendChild(textElement); } catch (e) {
-                                if (confirm('u fucked it up tarded black boy try again')) {
+                                if (confirm('kys monkey boy')) {
                                     window.open('https://cornhub.com');
                                 };
                             };
@@ -53,8 +53,12 @@
 })();
 
 
+function footer() {
+    let element = document.createElement('div');
 
-  
+    element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(240, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
+    element.innerHTML = `<p>Made by gliz <br> My <a style="color: #0000ff;" href="https://cornhub.com" target="_blank">ok</a></p>`;
+    document.body.appendChild(element);
 
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     element.onmousedown = ((e = window.event) => {
